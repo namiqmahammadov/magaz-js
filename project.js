@@ -242,4 +242,8 @@ function startShopping() {
     mainMenu();
 }
 
-startShopping();
+
+
+document.getElementById("startButton").addEventListener("click", function() {
+    startShopping();
+});
